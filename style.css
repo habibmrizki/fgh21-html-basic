@@ -1,34 +1,32 @@
-.nama1 {
-  color: blueviolet;
-  font-size: 1.3rem;
+div {
+  font-size: 0;
+}
+div .black:nth-child(odd) {
+  background-color: black;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+div .black:nth-child(even) {
+  background-color: white;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
 }
 
-.nama2 {
-  color: blueviolet;
-  font-size: 1.3rem;
+div .white:nth-child(even) {
+  background-color: black;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
 }
-
-.email {
-  color: blueviolet;
-  font-size: 1.3rem;
-}
-
-.mobile {
-  color: blueviolet;
-  font-size: 1.3rem;
-}
-
-.subject {
-  color: blueviolet;
-  font-size: 1.3rem;
-}
-
-.message {
-  color: blueviolet;
-  font-size: 1.3rem;
-}
-
-.attachment {
-  color: blueviolet;
-  font-size: 1.3rem;
+div .white:nth-child(odd) {
+  background-color: white;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
 }
