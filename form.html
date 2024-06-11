@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2 style="text-align: center">Submit Request</h2>
+      <p style="text-align: center">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+        impedit?
+      </p>
+      <form action="">
+        <div class="mb-4 mt-3">
+          <label for="firstname" style="color: blueviolet; font-size: 1.3rem"
+            >First Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="firstname"
+            placeholder="Enter your first name"
+          />
+        </div>
+        <div class="mb-4 mt-3">
+          <label for="lastname" style="color: blueviolet; font-size: 1.3rem"
+            >Last Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="lastname"
+            placeholder="Enter your last name"
+          />
+        </div>
+        <div class="mb-4 mt-3">
+          <label for="email" style="color: blueviolet; font-size: 1.3rem"
+            >Email id</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your Email id"
+          />
+        </div>
+        <div class="mb-4 mt-3">
+          <label for="mobile" style="color: blueviolet; font-size: 1.3rem"
+            >Mobile Number
+          </label>
+          <input
+            type="text"
+            class="form-control"
+            id="mobile"
+            placeholder="Enter your 10 digit mobile number "
+          />
+        </div>
+        <div class="mb-4 mt-3">
+          <label for="subject" style="color: blueviolet; font-size: 1.3rem"
+            >Subject</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="subject"
+            placeholder="Enter the Subject"
+          />
+        </div>
+        <div class="mb-4 mt-3">
+          <label for="message" style="color: blueviolet; font-size: 1.3rem"
+            >Message</label
+          >
+          <textarea
+            class="form-control"
+            rows="5"
+            id="message"
+            name="text"
+            placeholder="Enter your message within 400 characters"
+          ></textarea>
+          <p>please verify your entered details before subbiting</p>
+        </div>
+        <div class="mb-4 mt-3">
+          <label for="attachment" style="color: blueviolet; font-size: 1.3rem"
+            >Attachments</label
+          >
+          <textarea
+            class="form-control"
+            rows="3"
+            id="attachment"
+            name="text"
+            placeholder="Add or Drag & drop your files here"
+          ></textarea>
+          <p>
+            World, Exel, PDF, JPEG, & PNG are accepted. file size should be
+            whithin 30mb.
+          </p>
+        </div>
+      </form>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
