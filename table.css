@@ -1,3 +1,20 @@
-.heading {
+table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgb(32, 29, 29);
+}
+
+th {
+  border-collapse: collapse;
+  color: rgb(28, 120, 65);
+  padding: 1rem;
+  background-color: rgb(86, 86, 86);
+  text-align: center;
+}
+
+td {
+  color: #fff;
+  padding: 0.5rem;
   text-align: center;
 }
